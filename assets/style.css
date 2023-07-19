@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+ 
+}
+
+.container { /* aqui eu centralizei a div e coloquei um gradiente */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at 10% 20%, rgb(255, 197, 61) 0%, rgb(255, 94, 7) 90%);
+   
+}
+
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    
+}
+
+.container-form button {
+    padding: 15px 20px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, .422);
+    color:white;
+    margin-left: -70px;
+    font-size: 20px;
+   
+
+}
+
+.container-form input[type='text']{
+    padding: 30px 15px;
+    width: 30vw;
+    height: 60px;
+    border-radius: 10px;
+    border: 1px solid;
+  
+    outline: none;
+    margin-left: -12px;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, .422);
+    color: white;
+    font-weight: 500;
+}
+
+
+input::placeholder {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.list-container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 900px;
+    padding: 40px 40px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, .222);
+}
+
+.lista-afazeres {
+
+}
+.list {
+   background-color: rgba(0, 0, 0, .422);
+    border: 1px solid;
+    width: 30vw;
+    height: 60px;
+    margin:20px 0 ;
+    padding: 30px 15px;
+    border-radius: 10px;
+    display: flex;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    justify-content: space-between ;
+}
+
+.list p {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.icons{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    border: none;
+   gap: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.econ {
+    cursor: pointer;
+    color: rgb(251, 251, 251);
+    border: none;
+    font-size: 25px;
+    width: 20px;
+    height: 60px;
+    background-color: transparent;
+    padding: 20px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+
+
+.econ1 {
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    border: 14px solid black;
+    font-size: 30px;
+    width: 20px;
+    height: 60px;
+    margin: 50px;
+    background-color: transparent;
+    padding: 30px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
